@@ -1,0 +1,16 @@
+{
+  "project_id": "GP-189",
+  "project_name": "proj_10pearls_latam_business_intelligence_engineer_bridge_pr",
+  "repo_name": "10pearlslatam-finance-linear-optimization-engine",
+  "target_company": "10Pearls LATAM",
+  "target_role": "Business Intelligence Engineer",
+  "paradigm": "DeliveryParadigm.MODERN_LAKEHOUSE_CONTRACTS",
+  "core_algorithm": "AlgorithmFamily.LINEAR_PROGRAMMING",
+  "generated_at": "2026-10-03T23:51:58.962082+00:00",
+  "schema_version": "1.0",
+  "validation": {
+    "token_blacklist_check": "passed",
+    "ast_security_check": "passed",
+    "py_compile_check": "passed"
+  }
+}
