@@ -1,5 +1,5 @@
 -- ==============================================================================
--- 10Pearls LATAM Analytical Lakehouse - PL/pgSQL Procedural Functions & Audit Triggers
+-- Enterprise BI & Data Modernization Practice Analytical Lakehouse - PL/pgSQL Procedural Functions & Audit Triggers
 -- Target: PostgreSQL 16 Enterprise / Aurora
 -- Role: Business Intelligence Engineer
 -- Features: Transactional Integrity, Batch Cursor Processing & Anomaly Auditing

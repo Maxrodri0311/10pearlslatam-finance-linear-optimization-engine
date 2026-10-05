@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 echo ================================================================================
-echo   10Pearls LATAM: Financial Analytics and Linear Optimization Engine
+echo   Enterprise BI & Data Modernization Practice: Financial Analytics and Linear Optimization Engine
 echo   Automated Execution, Verification, and Quantitative Benchmarks
 echo ================================================================================
 echo.

@@ -7,7 +7,7 @@ from typing import Optional, List, Dict
 from pydantic import BaseModel, Field
 
 class PrimaryExecutionUnit(BaseModel):
-    """Core domain entity representing business transactions for 10Pearls LATAM"""
+    """Core domain entity representing business transactions for Enterprise BI & Data Modernization Practice"""
     unit_id: str = Field(description="Unique transaction or execution unit identifier")
     primary_metric: float = Field(default=0.0, description="Financial margin or processing cost in USD")
     is_active: bool = Field(default=True, description="Operational status flag")

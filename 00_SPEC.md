@@ -1,15 +1,15 @@
-# 📐 SPEC & ARCHITECTURAL BLUEPRINT: 10pearlslatam-finance-linear-optimization-engine
+# 📐 SPEC & ARCHITECTURAL BLUEPRINT: enterprise-bi-linear-optimization-engine
 
-**Target Company:** 10Pearls LATAM | **Target Role:** Business Intelligence Engineer  
+**Target Company:** Enterprise BI & Data Modernization Practice | **Target Role:** Business Intelligence Engineer  
 **Delivery Paradigm:** Modern Lakehouse Contracts & Dimensional Partitioning  
 **Core Algorithm:** Linear Programming (SciPy HiGHS Solver) & In-Memory Vectorized OLAP  
-**Repository Name:** `10pearlslatam-finance-linear-optimization-engine`  
+**Repository Name:** `enterprise-bi-linear-optimization-engine`  
 
 ---
 
 ## 🏛️ 1. The Core Business Bottleneck
 
-10Pearls LATAM processes multi-regional financial and operational workloads across distributed business units (`LATAM-BOG`, `LATAM-BA`, `LATAM-CDMX`, `LATAM-SP`, `US-EAST`). Legacy reporting relied on centralized, synchronous WebFOCUS monolithic queries directly against transactional engines, creating three critical bottlenecks:
+Enterprise BI & Data Modernization Practice processes multi-regional financial and operational workloads across distributed business units (`LATAM-BOG`, `LATAM-BA`, `LATAM-CDMX`, `LATAM-SP`, `US-EAST`). Legacy reporting relied on centralized, synchronous WebFOCUS monolithic queries directly against transactional engines, creating three critical bottlenecks:
 1. **Severe Query Latency & Lock Contention:** Peak financial closing reports produced 12s+ query wait times, causing resource contention on transactional databases.
 2. **Suboptimal Capacity Allocation:** Regional routing was performed via static heuristic round-robin schedules, incurring up to 28% excess operating costs due to regional rate disparities and capacity imbalances.
 3. **Absence of Declarative Contracts:** Divergent transformation logic between BI consumers and engineering ingestion led to financial reconciliation discrepancies across reporting tiers.

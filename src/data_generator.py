@@ -1,6 +1,6 @@
 """
 src/data_generator.py - Calibrated Stochastic Domain Data Generator.
-Physics: Linear Programming & Capacity Allocation for 10Pearls LATAM.
+Physics: Linear Programming & Capacity Allocation for Enterprise BI & Data Modernization Practice.
 Generates enterprise financial and operational routing datasets with sublinear cost physics.
 """
 
@@ -19,14 +19,14 @@ def generate_domain_dataset(
 ) -> pd.DataFrame:
     """
     Synthesizes multidimensional cost, volume, and capacity allocation transactions
-    for 10Pearls LATAM operations using calibrated stochastic distributions.
+    for Enterprise BI & Data Modernization Practice operations using calibrated stochastic distributions.
     
     Invariants:
     1. Operating cost follows economies of scale: Cost = Base + Rate * (Volume^0.82) + Normal(0, sigma)
     2. Capacity hours scale sublinearly with volume demand
     3. Zero nulls across all generated attributes
     """
-    print(f"[Data Generator] Generating {num_records:,} calibrated financial records for 10Pearls LATAM...")
+    print(f"[Data Generator] Generating {num_records:,} calibrated financial records for Enterprise BI & Data Modernization Practice...")
     start_time = time.time()
     
     np.random.seed(seed)
@@ -135,7 +135,7 @@ def generate_domain_dataset(
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Calibrated Stochastic Data Generator for 10Pearls LATAM.")
+    parser = argparse.ArgumentParser(description="Calibrated Stochastic Data Generator for Enterprise BI & Data Modernization Practice.")
     parser.add_argument("--records", type=int, default=50000, help="Number of operational records to generate")
     parser.add_argument("--output", type=str, default="data/raw_dataset.parquet", help="Target output Parquet path")
     parser.add_argument("--seed", type=int, default=42, help="Deterministic pseudo-random seed")

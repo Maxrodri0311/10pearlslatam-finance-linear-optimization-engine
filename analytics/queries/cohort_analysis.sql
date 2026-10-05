@@ -1,5 +1,5 @@
 -- ==============================================================================
--- 10Pearls LATAM Analytical Lakehouse - Advanced Longitudinal Cohort & Survival Analytics
+-- Enterprise BI & Data Modernization Practice Analytical Lakehouse - Advanced Longitudinal Cohort & Survival Analytics
 -- Target: PostgreSQL 16 Enterprise / DuckDB In-Memory OLAP
 -- Role: Business Intelligence Engineer | Paradigm: DeliveryParadigm.MODERN_LAKEHOUSE_CONTRACTS
 -- Techniques: Time-to-Event Analysis, Moving Quantiles, Window Frames & Dense Ranking

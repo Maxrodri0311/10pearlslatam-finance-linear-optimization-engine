@@ -15,7 +15,7 @@ from src.core_engine import create_engine
 
 
 def validate_contracts():
-    print("[Lakehouse Contracts] Validating Great Expectations / DuckDB schemas for 10Pearls LATAM...")
+    print("[Lakehouse Contracts] Validating Great Expectations / DuckDB schemas for Enterprise BI & Data Modernization Practice...")
     engine = create_engine()
     df = engine.execute_analysis()
     

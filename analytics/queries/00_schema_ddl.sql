@@ -1,5 +1,5 @@
 -- ==============================================================================
--- 10Pearls LATAM Analytical Lakehouse - Enterprise DDL & Partitioning Schema
+-- Enterprise BI & Data Modernization Practice Analytical Lakehouse - Enterprise DDL & Partitioning Schema
 -- Target: PostgreSQL 16 Enterprise / Amazon RDS Aurora
 -- Role: Business Intelligence Engineer
 -- Paradigm: DeliveryParadigm.MODERN_LAKEHOUSE_CONTRACTS | Architecture: Time-Series Range Partitioning & BRIN Indexing

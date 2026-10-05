@@ -1,5 +1,5 @@
 -- ==============================================================================
--- 10Pearls LATAM Analytical Lakehouse - Capacity & Margin Optimization Data Mart
+-- Enterprise BI & Data Modernization Practice Analytical Lakehouse - Capacity & Margin Optimization Data Mart
 -- Target: PostgreSQL 16 Materialized Views & Analytical Rollups
 -- Role: Business Intelligence Engineer | Paradigm: MODERN_LAKEHOUSE_CONTRACTS
 -- Business Case: WebFOCUS Legacy Migration vs Dynamic Linear Programming Allocation

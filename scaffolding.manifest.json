@@ -1,8 +1,8 @@
 {
   "project_id": "GP-189",
   "project_name": "proj_10pearls_latam_business_intelligence_engineer_bridge_pr",
-  "repo_name": "10pearlslatam-finance-linear-optimization-engine",
-  "target_company": "10Pearls LATAM",
+  "repo_name": "enterprise-bi-linear-optimization-engine",
+  "target_company": "Enterprise BI & Data Modernization Practice",
   "target_role": "Business Intelligence Engineer",
   "paradigm": "DeliveryParadigm.MODERN_LAKEHOUSE_CONTRACTS",
   "core_algorithm": "AlgorithmFamily.LINEAR_PROGRAMMING",

@@ -1,5 +1,5 @@
 """
-src/core_engine.py - Core Analytical & Algorithmic Engine for 10Pearls LATAM.
+src/core_engine.py - Core Analytical & Algorithmic Engine for Enterprise BI & Data Modernization Practice.
 Implements Dependency Inversion Principle (DIP) over AnalyticalStorageProtocol and CoreModelProtocol.
 Features:
   1. High-throughput in-memory DuckDB columnar transformations (sub-15ms).
@@ -44,7 +44,7 @@ class DuckDBStorageAdapter:
 
 class LinearOptimizationEngine:
     """
-    Algorithmic optimization engine for 10Pearls LATAM resource allocation.
+    Algorithmic optimization engine for Enterprise BI & Data Modernization Practice resource allocation.
     Solves a multi-regional linear programming problem:
       Minimize total operating cost across LATAM centers subject to capacity & demand constraints.
     """
@@ -263,7 +263,7 @@ if __name__ == "__main__":
     engine = create_engine(data_path=path)
     
     print("\n" + "="*80)
-    print("  10PEARLS LATAM - ANALYTICAL LAKEHOUSE AGGREGATION (DUCKDB IN-MEMORY)")
+    print("  Enterprise BI & Data Modernization Practice - ANALYTICAL LAKEHOUSE AGGREGATION (DUCKDB IN-MEMORY)")
     print("="*80)
     summary_df = engine.execute_analysis()
     print(summary_df.to_string(index=False))

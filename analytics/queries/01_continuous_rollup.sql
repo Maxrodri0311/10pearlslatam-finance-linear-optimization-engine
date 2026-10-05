@@ -1,5 +1,5 @@
 -- ==============================================================================
--- 10Pearls LATAM Analytical Lakehouse - Continuous Statistical Rollup Mart
+-- Enterprise BI & Data Modernization Practice Analytical Lakehouse - Continuous Statistical Rollup Mart
 -- Target: PostgreSQL 16 Materialized Views & Statistical Windowing
 -- Role: Business Intelligence Engineer
 -- Features: LAG Velocity, Moving Z-Scores, Decile Segmentation & Concurrent Refresh

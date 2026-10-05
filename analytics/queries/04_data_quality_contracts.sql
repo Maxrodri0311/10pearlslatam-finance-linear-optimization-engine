@@ -1,5 +1,5 @@
 -- ==============================================================================
--- 10Pearls LATAM Analytical Lakehouse - Declarative Data Quality Contracts & Tests
+-- Enterprise BI & Data Modernization Practice Analytical Lakehouse - Declarative Data Quality Contracts & Tests
 -- Target: PostgreSQL 16 Enterprise / DuckDB Automated Invariant Verifications
 -- Role: Business Intelligence Engineer | Paradigm: MODERN_LAKEHOUSE_CONTRACTS
 -- ==============================================================================

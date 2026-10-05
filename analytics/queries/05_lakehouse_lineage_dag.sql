@@ -1,5 +1,5 @@
 -- ==============================================================================
--- 10Pearls LATAM Analytical Lakehouse - Medallion Architecture Lineage DAG
+-- Enterprise BI & Data Modernization Practice Analytical Lakehouse - Medallion Architecture Lineage DAG
 -- Target: PostgreSQL 16 Enterprise / Microsoft Fabric Data Warehouse / DuckDB
 -- Role: Business Intelligence Engineer | Paradigm: MODERN_LAKEHOUSE_CONTRACTS
 -- Architecture: Bronze (Raw Ingestion) -> Silver (Conformed & Validated) -> Gold (Executive KPIs)
@@ -157,4 +157,4 @@ ORDER BY
     tier_profitability_rank ASC;
 
 COMMENT ON VIEW v_10pearls_gold_executive_kpis IS
-    'Gold Layer Medallion Executive KPI View: Full Data Lineage and SLA Attribution for 10Pearls LATAM.';
+    'Gold Layer Medallion Executive KPI View: Full Data Lineage and SLA Attribution for Enterprise BI & Data Modernization Practice.';

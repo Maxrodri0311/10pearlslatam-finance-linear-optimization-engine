@@ -1,5 +1,5 @@
 """
-tests/benchmark.py - Quantitative Latency & Algorithmic Benchmark for 10Pearls LATAM.
+tests/benchmark.py - Quantitative Latency & Algorithmic Benchmark for Enterprise BI & Data Modernization Practice.
 Measures p50, p95, and p99 query latency over 30 iterations for:
   1. DuckDB In-Memory Columnar Scans & Aggregations
   2. Multi-Regional Linear Programming Capacity Solver (SciPy HiGHS)
@@ -72,7 +72,7 @@ def run_benchmarks(iterations: int = 30, num_records: int = 50000):
         solver_p99 = float(np.percentile(solver_latencies, 99))
         
         print("\n" + "="*80)
-        print("  10PEARLS LATAM - QUANTITATIVE BENCHMARK REPORT (ms)")
+        print("  Enterprise BI & Data Modernization Practice - QUANTITATIVE BENCHMARK REPORT (ms)")
         print("="*80)
         print(f"  Dataset Size: {num_records:,} rows | Sample Iterations: {iterations}")
         print("-" * 80)
